@@ -1,0 +1,126 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  color: #40514E;
+}
+
+h1 {
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  color: #66BFBF;
+  font-family: 'Sacramento', cursive;
+}
+
+h2 {
+  font-family: 'Inconsolata', monospace;
+  font-size: 2.5rem;
+  color: #66BFBF;
+  padding-bottom: 10px;
+}
+
+h3 {
+  color: #11999E;
+  font-family: 'Inconsolata', monospace;
+}
+
+a {
+  color: #11999E;
+  font-family: 'Inconsolata', monospace;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+a:hover{
+  color: white;
+}
+
+p {
+  line-height: 2;
+}
+
+hr {
+  border-bottom: none;
+  border-top: 6px dotted grey;
+  width: 4%;
+  margin: 100px auto;
+}
+
+.bottomCloudImage {
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+}
+
+.topCloudImage {
+  position: absolute;
+  right: 300px;
+  top: 40px;
+}
+
+.Top-container {
+  background-color: #E4F9F5;
+  position: relative;
+  padding-top: 50px;
+}
+
+.middle-container {
+  margin: 100px 0;
+}
+
+.bottom-container{
+  background-color: #66BFBF;
+  padding: 50px 0 20px;
+}
+
+.coding-img {
+  width: 25%;
+  float: left;
+  padding-right: 30px;
+}
+
+.soccerField {
+  width: 25%;
+  float: right;
+  padding-left: 30px;
+}
+
+.profilePic {
+  width: 15%;
+}
+
+.a-programmer {
+  font-weight: normal;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+.contact-message {
+  margin: 40px auto 60px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.7em 1.4em;
+  margin: 0 0.3em 0.3em 0;
+  border-radius: 0.15em;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'Inconsolata', monospace;
+  text-transform: uppercase;
+  font-weight: 400;
+  color: #FFFFFF;
+  background-color: #66BFBF;
+  box-shadow: inset 0 -0.6em 0 -0.35em rgba(0, 0, 0, 0.17);
+  text-align: center;
+  position: relative;
+}
+
+.copy-right{
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
